@@ -1,5 +1,3 @@
-# data-science-project
-My data science portfolio for CISC7204 Practice 09
 # Wine Quality Analysis: What Factors Affect Red Wine Quality?
 
 ## Problem / Research Question
@@ -12,6 +10,20 @@ Which physicochemical properties most influence the quality rating of red wine? 
 - License: CC BY 4.0, allows sharing and adaptation with attribution
 - Citation: Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Wine Quality [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C56S3T
 - Redistribution: Allowed with attribution. This project does not upload the raw data; it only provides download instructions.
+
+## Project Structure
+```text
+data-science-project/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── notebooks/
+│   └── analysis.ipynb
+└── images/
+    ├── fig1_correlation_heatmap.png
+    ├── fig2_alcohol_boxplot.png
+    └── fig3_volatile_acidity_scatter.png
+```
 
 ## Methods and Tools
 - Language: Python
@@ -42,8 +54,15 @@ The data only covers Portuguese Vinho Verde red wine, and quality ratings are su
 
 ## How to Run the Analysis
 ```bash
-git clone https://github.com/<your-username>/data-science-project.git
+git clone https://github.com/mc636011/data-science-project.git
 cd data-science-project
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+jupyter notebook notebooks/analysis.ipynb
+```
+
+The notebook downloads the dataset automatically from UCI. If offline, manually download `winequality-red.csv` and place it in the project folder, then update the read path in the notebook.
+
+## Project Status
+Completed
