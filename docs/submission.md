@@ -4,7 +4,7 @@
 - **Portfolio website:** https://mc636011.github.io/data-science-project/
 - **Project repository:** https://github.com/mc636011/data-science-project
 
-If the Pages URL does not open immediately, confirm that GitHub Pages is enabled for the repository and configured to serve the `main` branch.
+The repository now includes a static `index.html` homepage. If the Pages URL returns 404, open **Settings → Pages** in GitHub and enable Pages from the `main` branch with the `/(root)` folder. After deployment, the site should serve `index.html` directly.
 
 ## Reflection
 The reflection is saved in `docs/reflection.md`.
