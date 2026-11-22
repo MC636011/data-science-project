@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WANG YU MENG | Data Science Portfolio</title>
+  <style>
+    :root { color-scheme: light; --blue:#1d4ed8; --text:#172033; --muted:#5b6475; --card:#ffffff; --bg:#f4f7fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    header { background:#0f2748; color:white; padding:52px 22px; }
+    header .wrap, main { max-width:1060px; margin:0 auto; }
+    h1 { margin:0 0 8px; font-size:2.2rem; }
+    h2 { color:#0f2748; margin-top:36px; }
+    h3 { color:#1d4ed8; }
+    p { margin:0 0 14px; }
+    ul { margin-top:6px; }
+    .subtitle { font-size:1.1rem; color:#dbeafe; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+    .card { background:var(--card); border:1px solid #dbe3ef; border-radius:14px; padding:22px; box-shadow:0 5px 18px rgba(15,39,72,.06); }
+    .metric { font-weight:700; color:#b91c1c; }
+    img { max-width:100%; height:auto; display:block; margin:14px 0; border:1px solid #dbe3ef; border-radius:10px; background:white; }
+    a { color:var(--blue); }
+    footer { max-width:1060px; margin:28px auto 48px; padding:0 22px; color:var(--muted); }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>WANG YU MENG (MC636011)</h1>
+    <p class="subtitle">Data Science Portfolio — CISC7204</p>
+  </div>
+</header>
+<main>
+  <section class="card">
+    <h2>About me</h2>
+    <p>I am developing practical skills in Python data analysis, reproducible research, visualization, and technical communication. My project work focuses on turning a clear research question into documented code, readable charts, and evidence-based recommendations.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Technical skills</h2>
+      <ul>
+        <li>Python, pandas, NumPy, and Jupyter Notebook</li>
+        <li>Data cleaning, aggregation, and exploratory analysis</li>
+        <li>Matplotlib and Seaborn visualization</li>
+        <li>Git, GitHub, GitHub Pages, and technical documentation</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Featured project</h2>
+      <h3>U.S. Domestic Flight Delay Pattern Analysis</h3>
+      <p><strong>Research question:</strong> What drives U.S. domestic flight delays — carriers, airports, time of year, or causal factors?</p>
+      <p><strong>Status:</strong> Completed</p>
+      <p><a href="https://github.com/mc636011/data-science-project">View the project repository</a></p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Approach</h2>
+    <p>I used BTS airline on-time data covering June 2003 to January 2025. After cleaning missing operational values and calculating delay-rate metrics, I compared carriers, airports, months, and causal factors. The analysis code and reproducible instructions are available in the project repository.</p>
+    <img src="images/carrier_delay_ranking.svg" alt="Airline delay rate ranking">
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Key findings</h2>
+      <ul>
+        <li>Overall delay rate: <span class="metric">19.2%</span></li>
+        <li>Best-performing carrier: <span class="metric">Aloha Airlines, 7.1%</span></li>
+        <li>Highest overall carrier delay rate: <span class="metric">Peninsula Airways, 31.5%</span>; among carriers with more than 10,000 flights, Frontier Airlines is highest at <span class="metric">26.2%</span></li>
+        <li>Highest-delay airport: <span class="metric">Unalaska, 37.1%</span></li>
+        <li>Carrier-operational issues account for about <span class="metric">29.5%</span> of delays; direct weather delays account for about <span class="metric">3.6%</span></li>
+        <li>September is the most reliable month (<span class="metric">14.9%</span>) and June is the least reliable (<span class="metric">23.1%</span>)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Monthly pattern</h2>
+      <img src="images/monthly_trend.svg" alt="Monthly flight delay rate trend">
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Airport risk</h2>
+      <img src="images/top_delay_airports.svg" alt="Top high-delay airports">
+    </div>
+    <div class="card">
+      <h2>Delay causes</h2>
+      <img src="images/weather_vs_carrier.svg" alt="Weather and carrier-operational delay shares">
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Limitation</h2>
+    <p>The analysis uses monthly aggregated records, so it shows associations and rankings rather than proving passenger-level causality. Historical delay patterns also may not generalize to future airline schedules or weather conditions.</p>
+  </section>
+</main>
+<footer>
+  <p>Project repository: <a href="https://github.com/mc636011/data-science-project">github.com/mc636011/data-science-project</a></p>
+</footer>
+</body>
+</html>
