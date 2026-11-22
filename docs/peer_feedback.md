@@ -12,7 +12,7 @@ A classmate reviewing the portfolio said that the work was strong, but the repos
 - Added data-source, permission, limitation, and responsible-sharing notes to each project.
 
 ## Corresponding commit
-See the commit titled **Separate individual and group portfolio projects** in the repository history.
+The reorganization was implemented in commit [`f0fc81c`](https://github.com/mc636011/data-science-project/commit/f0fc81c4f134ef22773a2a0960b1fa041e7af45e), with message: **Separate individual and group portfolio projects**.
 
 ## Verification
 Each project now has its own README, script, visualizations or chart-generation code, and data instructions where needed.
