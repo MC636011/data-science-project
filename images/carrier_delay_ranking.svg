@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="450" y="30" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">Airline Delay Rate Ranking</text>
+<text x="450" y="54" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">2003–2025 | selected carriers; delay rate = delayed flights / total flights</text>
+<text x="245" y="82" text-anchor="end" font-family="Arial" font-size="12">Peninsula Airways</text><rect x="250" y="68" width="468" height="18" fill="#ff6b6b"/><text x="726" y="82" font-family="Arial" font-size="12">31.5%</text>
+<text x="245" y="112" text-anchor="end" font-family="Arial" font-size="12">Frontier Airlines</text><rect x="250" y="98" width="389" height="18" fill="#ff6b6b"/><text x="647" y="112" font-family="Arial" font-size="12">26.2%</text>
+<text x="245" y="142" text-anchor="end" font-family="Arial" font-size="12">Trans States Airlines</text><rect x="250" y="128" width="365" height="18" fill="#ff9f1c"/><text x="623" y="142" font-family="Arial" font-size="12">24.6%</text>
+<text x="245" y="172" text-anchor="end" font-family="Arial" font-size="12">JetBlue Airways</text><rect x="250" y="158" width="363" height="18" fill="#ff9f1c"/><text x="621" y="172" font-family="Arial" font-size="12">24.4%</text>
+<text x="245" y="202" text-anchor="end" font-family="Arial" font-size="12">Allegiant Air</text><rect x="250" y="188" width="352" height="18" fill="#ff9f1c"/><text x="610" y="202" font-family="Arial" font-size="12">23.7%</text>
+<text x="245" y="247" text-anchor="end" font-family="Arial" font-size="12">Delta Air Lines Network</text><rect x="250" y="233" width="214" height="18" fill="#6bcb77"/><text x="472" y="247" font-family="Arial" font-size="12">14.4%</text>
+<text x="245" y="277" text-anchor="end" font-family="Arial" font-size="12">Horizon Air</text><rect x="250" y="263" width="213" height="18" fill="#6bcb77"/><text x="471" y="277" font-family="Arial" font-size="12">14.3%</text>
+<text x="245" y="307" text-anchor="end" font-family="Arial" font-size="12">Endeavor Air</text><rect x="250" y="293" width="205" height="18" fill="#6bcb77"/><text x="463" y="307" font-family="Arial" font-size="12">13.8%</text>
+<text x="245" y="337" text-anchor="end" font-family="Arial" font-size="12">Hawaiian Airlines</text><rect x="250" y="323" width="116" height="18" fill="#6bcb77"/><text x="374" y="337" font-family="Arial" font-size="12">7.8%</text>
+<text x="245" y="367" text-anchor="end" font-family="Arial" font-size="12">Aloha Airlines</text><rect x="250" y="353" width="105" height="18" fill="#6bcb77"/><text x="363" y="367" font-family="Arial" font-size="12">7.1%</text>
+<text x="250" y="379" font-family="Arial" font-size="12" fill="#555">Delay rate (%)</text>
+</svg>
