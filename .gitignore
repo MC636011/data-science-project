@@ -4,14 +4,14 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 
-# Virtual environments
+# Environments
 .venv/
 venv/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Local data — download instructions are in data/README.md
+# Raw or downloaded datasets
 *.csv
 *.xlsx
 *.zip

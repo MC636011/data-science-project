@@ -1,14 +1,12 @@
-# CISC7204 rubric self-check
+# Rubric self-check
 
-| Requirement | Evidence in this repository |
+| Requirement | Evidence |
 |---|---|
-| Required files are present and logically organized | `README.md`, `requirements.txt`, `analysis.py`, `notebooks/flight_delay_analysis.ipynb`, `images/`, `data/README.md`, and `docs/` are clearly separated. |
-| README explains research question, source/permissions, methods, findings, limitation | See `README.md`. |
-| Dependencies and run instructions are usable | See `requirements.txt`, `README.md`, and `data/README.md`. |
-| At least two readable visualizations | Four SVG figures are in `images/` and embedded in `README.md` and `index.md`. |
-| Findings acknowledge a meaningful limitation | See `README.md` and `index.md`. |
-| Portfolio includes introduction, skills, title, research question, visualization, findings, repository link, and status | See `index.md`. |
-| Website deployment/testing evidence | See `index.md` and `docs/submission.md`; GitHub Pages should serve `index.md` from `main`. |
-| Peer feedback and committed improvement | See `docs/peer_feedback.md`. |
-| Reflection | See `docs/reflection.md`. |
-| Responsible sharing | Raw data and credentials are not committed; attribution and usage notes are included. |
+| Repository is logically organized | Root README, `docs/`, and three separate project folders are used. |
+| Personal and group work are separated | `personal-wine-quality`, `assignment01-flight-delay`, and `assignment02-income-inequality` are distinct folders. |
+| Project READMEs contain research question, source, methods, findings, limitation, and run instructions | See each project `README.md`. |
+| Dependencies are listed | See root `requirements.txt`. |
+| Visualizations are readable and linked to findings | Each project includes SVG figures in its own `images/` folder. |
+| Portfolio page includes introduction, skills, projects, findings, limitations, repository links, and status | See `index.md` and `index.html`. |
+| Reflection and peer feedback are documented | See `docs/reflection.md` and `docs/peer_feedback.md`. |
+| Responsible sharing is addressed | Raw-data rules and source attribution appear in project README files. |

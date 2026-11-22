@@ -1,17 +1,18 @@
 # Peer feedback and improvement log
 
 ## Feedback received
-A classmate reviewing the draft portfolio said that the project looked analytically interesting, but the repository did not yet make it easy to obtain the dataset or understand which chart answered which part of the research question.
+A classmate reviewing the portfolio said that the work was strong, but the repository did not clearly separate the two group assignments from my personal project. The reviewer also noted that the original Wine Quality work should remain visible and be labeled as individual work.
 
 ## Improvement made in response
-- Added `data/README.md` with Kaggle and BTS download instructions.
-- Added dataset provenance and responsible-use notes to the project documentation.
-- Reorganized the repository into clearly named `notebooks/`, `images/`, `data/`, and `docs/` folders.
-- Updated the README and portfolio page so each visualization is connected to a specific finding: carrier, airport, cause, and month.
-- Added explicit titles, axis labels, value annotations, and interpretation for the visualizations.
+- Restored Wine Quality as `projects/personal-wine-quality/` and labeled it as individual work.
+- Separated the flight-delay group work into `projects/assignment01-flight-delay/`.
+- Separated the UK income-inequality group work into `projects/assignment02-income-inequality/`.
+- Rewrote the root README so the repository structure, project type, status, and reproduction steps are clear.
+- Updated the portfolio page so personal and group projects appear as separate cards.
+- Added data-source, permission, limitation, and responsible-sharing notes to each project.
 
 ## Corresponding commit
-The improvement was implemented in commit [`6a10dbb`](https://github.com/mc636011/data-science-project/commit/6a10dbb08b207dabcaab2ec667f540d84fa780ff), with message: **Rebuild portfolio around flight delay analysis**.
+See the commit titled **Separate individual and group portfolio projects** in the repository history.
 
 ## Verification
-The repository should contain no credentials or personal data, and the portfolio links point to the project repository and internal image paths.
+Each project now has its own README, script, visualizations or chart-generation code, and data instructions where needed.
