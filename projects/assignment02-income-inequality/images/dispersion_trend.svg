@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="410" viewBox="0 0 850 410">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="425" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">UK Local-Authority GDHI Dispersion</text>
+<text x="425" y="53" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Selected years, 1997–2024</text>
+<line x1="90" y1="330" x2="780" y2="330" stroke="#999"/>
+<line x1="90" y1="80" x2="90" y2="330" stroke="#999"/>
+<polyline fill="none" stroke="#ff6b6b" stroke-width="3" points="100,181 310,89 520,160 740,292"/>
+<polyline fill="none" stroke="#4dabf7" stroke-width="3" points="100,284 310,271 520,280 740,289"/>
+<polyline fill="none" stroke="#6bcb77" stroke-width="3" points="100,248 310,226 520,240 740,283"/>
+<circle cx="100" cy="181" r="4" fill="#ff6b6b"/><circle cx="310" cy="89" r="4" fill="#ff6b6b"/><circle cx="520" cy="160" r="4" fill="#ff6b6b"/><circle cx="740" cy="292" r="4" fill="#ff6b6b"/>
+<circle cx="100" cy="284" r="4" fill="#4dabf7"/><circle cx="310" cy="271" r="4" fill="#4dabf7"/><circle cx="520" cy="280" r="4" fill="#4dabf7"/><circle cx="740" cy="289" r="4" fill="#4dabf7"/>
+<circle cx="100" cy="248" r="4" fill="#6bcb77"/><circle cx="310" cy="226" r="4" fill="#6bcb77"/><circle cx="520" cy="240" r="4" fill="#6bcb77"/><circle cx="740" cy="283" r="4" fill="#6bcb77"/>
+<text x="100" y="355" text-anchor="middle" font-family="Arial" font-size="12">1997</text><text x="310" y="355" text-anchor="middle" font-family="Arial" font-size="12">2008</text><text x="520" y="355" text-anchor="middle" font-family="Arial" font-size="12">2020</text><text x="740" y="355" text-anchor="middle" font-family="Arial" font-size="12">2024</text>
+<rect x="585" y="95" width="12" height="12" fill="#ff6b6b"/><text x="603" y="106" font-family="Arial" font-size="12">CV</text>
+<rect x="645" y="95" width="12" height="12" fill="#4dabf7"/><text x="663" y="106" font-family="Arial" font-size="12">Gini</text>
+<rect x="710" y="95" width="12" height="12" fill="#6bcb77"/><text x="728" y="106" font-family="Arial" font-size="12">Theil</text>
+<text x="28" y="205" transform="rotate(-90 28 205)" text-anchor="middle" font-family="Arial" font-size="12">Metric value</text>
+</svg>

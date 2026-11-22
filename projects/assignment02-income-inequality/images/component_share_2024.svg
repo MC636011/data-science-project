@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="450" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">Selected GDHI Components by Region, 2024</text>
+<text x="450" y="53" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Shares of selected income components across regional GDHI</text>
+<line x1="90" y1="330" x2="850" y2="330" stroke="#999"/>
+<line x1="90" y1="80" x2="90" y2="330" stroke="#999"/>
+<text x="170" y="352" text-anchor="middle" font-family="Arial" font-size="11" transform="rotate(25 170 352)">London</text><rect x="135" y="80" width="25" height="250" fill="#6bcb77"/><rect x="165" y="211" width="25" height="119" fill="#ff9f1c"/><rect x="195" y="216" width="25" height="114" fill="#4dabf7"/>
+<text x="330" y="352" text-anchor="middle" font-family="Arial" font-size="11" transform="rotate(25 330 352)">South East</text><rect x="295" y="87" width="25" height="243" fill="#6bcb77"/><rect x="325" y="227" width="25" height="103" fill="#ff9f1c"/><rect x="355" y="255" width="25" height="75" fill="#4dabf7"/>
+<text x="490" y="352" text-anchor="middle" font-family="Arial" font-size="11" transform="rotate(25 490 352)">North East</text><rect x="455" y="88" width="25" height="242" fill="#6bcb77"/><rect x="485" y="241" width="25" height="89" fill="#ff9f1c"/><rect x="515" y="188" width="25" height="142" fill="#4dabf7"/>
+<text x="650" y="352" text-anchor="middle" font-family="Arial" font-size="11" transform="rotate(25 650 352)">Wales</text><rect x="615" y="104" width="25" height="226" fill="#6bcb77"/><rect x="645" y="246" width="25" height="84" fill="#ff9f1c"/><rect x="675" y="190" width="25" height="140" fill="#4dabf7"/>
+<text x="810" y="352" text-anchor="middle" font-family="Arial" font-size="11" transform="rotate(25 810 352)">Scotland</text><rect x="775" y="86" width="25" height="244" fill="#6bcb77"/><rect x="805" y="239" width="25" height="91" fill="#ff9f1c"/><rect x="835" y="227" width="25" height="103" fill="#4dabf7"/>
+<rect x="100" y="385" width="12" height="12" fill="#6bcb77"/><text x="120" y="396" font-family="Arial" font-size="12">Compensation of employees</text>
+<rect x="305" y="385" width="12" height="12" fill="#ff9f1c"/><text x="325" y="396" font-family="Arial" font-size="12">Property income received</text>
+<rect x="505" y="385" width="12" height="12" fill="#4dabf7"/><text x="525" y="396" font-family="Arial" font-size="12">Social benefits received</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="430" viewBox="0 0 640 430">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="320" y="35" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">Wine Quality Correlation Matrix</text>
+<text x="320" y="58" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">UCI red wine dataset; n = 1,599</text>
+<text x="155" y="105" text-anchor="end" font-family="Arial" font-size="13">Alcohol</text>
+<text x="155" y="185" text-anchor="end" font-family="Arial" font-size="13">Volatile acidity</text>
+<text x="155" y="265" text-anchor="end" font-family="Arial" font-size="13">Quality</text>
+<text x="220" y="90" text-anchor="middle" font-family="Arial" font-size="12">Alcohol</text>
+<text x="340" y="90" text-anchor="middle" font-family="Arial" font-size="12">Volatile acidity</text>
+<text x="465" y="90" text-anchor="middle" font-family="Arial" font-size="12">Quality</text>
+<rect x="170" y="105" width="100" height="70" fill="#b91c1c"/><text x="220" y="145" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">1.00</text>
+<rect x="290" y="105" width="100" height="70" fill="#6baed6"/><text x="340" y="145" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">-0.20</text>
+<rect x="410" y="105" width="100" height="70" fill="#ef8a62"/><text x="460" y="145" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">0.48</text>
+<rect x="170" y="185" width="100" height="70" fill="#6baed6"/><text x="220" y="225" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">-0.20</text>
+<rect x="290" y="185" width="100" height="70" fill="#b91c1c"/><text x="340" y="225" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">1.00</text>
+<rect x="410" y="185" width="100" height="70" fill="#67a9cf"/><text x="460" y="225" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">-0.39</text>
+<rect x="170" y="265" width="100" height="70" fill="#ef8a62"/><text x="220" y="305" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">0.48</text>
+<rect x="290" y="265" width="100" height="70" fill="#67a9cf"/><text x="340" y="305" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">-0.39</text>
+<rect x="410" y="265" width="100" height="70" fill="#b91c1c"/><text x="460" y="305" text-anchor="middle" font-family="Arial" font-size="16" fill="#fff">1.00</text>
+<text x="320" y="385" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Higher alcohol is associated with higher quality; higher volatile acidity is associated with lower quality.</text>
+</svg>

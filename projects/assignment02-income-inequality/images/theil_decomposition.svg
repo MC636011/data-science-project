@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="380" y="32" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">Population-Weighted Theil Decomposition</text>
+<text x="380" y="55" text-anchor="middle" font-family="Arial" font-size="13" fill="#555">Between-region share increased from 1997 to 2024</text>
+<line x1="100" y1="340" x2="660" y2="340" stroke="#999"/>
+<rect x="160" y="252" width="120" height="88" fill="#ff6b6b"/><rect x="160" y="140" width="120" height="112" fill="#4dabf7"/>
+<rect x="430" y="201" width="120" height="139" fill="#ff6b6b"/><rect x="430" y="140" width="120" height="61" fill="#4dabf7"/>
+<text x="220" y="365" text-anchor="middle" font-family="Arial" font-size="13">1997</text><text x="490" y="365" text-anchor="middle" font-family="Arial" font-size="13">2024</text>
+<text x="220" y="296" text-anchor="middle" font-family="Arial" font-size="13" fill="#fff">31.96%</text><text x="220" y="202" text-anchor="middle" font-family="Arial" font-size="13" fill="#fff">68.04%</text>
+<text x="490" y="276" text-anchor="middle" font-family="Arial" font-size="13" fill="#fff">43.13%</text><text x="490" y="177" text-anchor="middle" font-family="Arial" font-size="13" fill="#fff">56.87%</text>
+<rect x="100" y="390" width="12" height="12" fill="#ff6b6b"/><text x="120" y="401" font-family="Arial" font-size="12">Between-region share</text>
+<rect x="280" y="390" width="12" height="12" fill="#4dabf7"/><text x="300" y="401" font-family="Arial" font-size="12">Within-region share</text>
+</svg>
