@@ -5,40 +5,57 @@ title: WANG YU MENG | Data Science Portfolio
 # WANG YU MENG (MC636011) — Data Science Portfolio
 
 ## About me
-I am developing practical skills in Python data analysis, reproducible research, visualization, and technical communication. My project work focuses on turning a clear research question into documented code, readable charts, and evidence-based recommendations.
+I am developing practical skills in Python data analysis, reproducible research, visualization, and technical communication. This portfolio separates my individual project from two group assignments so the contribution context is clear.
 
 ## Technical skills
-- Python, pandas, NumPy, and Jupyter Notebook
-- Data cleaning, aggregation, feature engineering, and exploratory analysis
+- Python, pandas, NumPy, and Jupyter Notebook workflows
+- Data cleaning, aggregation, exploratory analysis, and statistical summaries
 - Matplotlib and Seaborn visualization
-- Git, GitHub, GitHub Pages, and technical documentation
+- Git, GitHub, GitHub Pages, and reproducible documentation
 
-## Featured project: U.S. Domestic Flight Delay Pattern Analysis
+## Individual work
 
-### Research question
-What drives U.S. domestic flight delays — carriers, airports, time of year, or causal factors?
+### Wine Quality Analysis
+**Folder:** [projects/personal-wine-quality](projects/personal-wine-quality)  
+**Research question:** Which physicochemical properties most influence red wine quality?
 
-### Approach
-I used BTS airline on-time data covering June 2003 to January 2025. After cleaning missing operational values and calculating delay-rate metrics, I compared carriers, airports, months, and causal factors. The analysis code is available in the project repository.
+![Wine quality correlation matrix](projects/personal-wine-quality/images/fig1_correlation_heatmap.svg)
 
-![Airline delay rate ranking](images/carrier_delay_ranking.svg)
+**Key findings:** Alcohol is positively correlated with quality at approximately **0.48**, while volatile acidity is negatively correlated at approximately **-0.39**. Mean alcohol rises from **9.96%** for quality 3 wine to **12.09%** for quality 8 wine.
 
-### Findings
-- Overall delay rate: **19.2%**.
-- Best-performing carrier: **Aloha Airlines, 7.1%**.
-- Highest overall carrier delay rate: **Peninsula Airways, 31.5%**; among carriers with more than 10,000 flights, Frontier Airlines is highest at **26.2%**.
-- Highest-delay airport: **Unalaska, 37.1%**.
-- Carrier-operational issues account for about **29.5%** of delays, while direct weather delays account for about **3.6%**.
-- **September** is the most reliable month (**14.9%**) and **June** is the least reliable (**23.1%**).
+**Limitation:** The sample covers Portuguese Vinho Verde red wine and uses subjective expert quality scores, so the findings do not generalize to all wines.
 
-### Visualization
-![Monthly delay trend](images/monthly_trend.svg)
+**Status:** Completed
 
-### Limitation
-The analysis uses monthly aggregated records, so it shows associations and rankings rather than proving passenger-level causality. Historical delay patterns also may not generalize to future airline schedules or weather conditions.
+## Group Assignment 01
 
-### Project repository
-[View the code, data instructions, and documentation](https://github.com/mc636011/data-science-project)
+### U.S. Domestic Flight Delay Pattern Analysis
+**Folder:** [projects/assignment01-flight-delay](projects/assignment01-flight-delay)  
+**Team:** MC636087 ZHOU ZHUO; MC636011 WANG YU MENG  
+**Research question:** What drives U.S. domestic flight delays — carriers, airports, time of year, or causal factors?
 
-### Status
-Completed
+![Monthly flight delay trend](projects/assignment01-flight-delay/images/monthly_trend.svg)
+
+**Key findings:** The overall delay rate is about **19.2%**. Aloha Airlines has the lowest delay rate at about **7.1%**, while Peninsula Airways has the highest overall rate at about **31.5%**. June is the worst month at **23.1%**, while September is best at **14.9%**.
+
+**Limitation:** The data is aggregated by carrier, airport, and month, so it cannot prove passenger-level causality.
+
+**Status:** Completed
+
+## Group Assignment 02
+
+### Income Inequality Across UK Local Authorities
+**Folder:** [projects/assignment02-income-inequality](projects/assignment02-income-inequality)  
+**Team:** MC636087 ZHOU ZHUO; MC636011 WANG YU MENG  
+**Research question:** Is GDHI per head across UK local authorities converging or diverging between 1997 and 2024, and which components drive regional differences in 2024?
+
+![Theil decomposition](projects/assignment02-income-inequality/images/theil_decomposition.svg)
+
+**Key findings:** Equal-weighted CV declines from **0.4497 in 1997** to **0.3551 in 2024**, but population-weighted Theil rises from **0.0278** to **0.0388**. London has the largest within-region dispersion, with CV about **0.551** in 2024.
+
+**Limitation:** The analysis uses aggregate local-authority GDHI rather than individual household income, and population weighting changes the convergence conclusion.
+
+**Status:** Completed
+
+## Project repository
+[View the full repository](https://github.com/mc636011/data-science-project)

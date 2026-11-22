@@ -5,99 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WANG YU MENG | Data Science Portfolio</title>
   <style>
-    :root { color-scheme: light; --blue:#1d4ed8; --text:#172033; --muted:#5b6475; --card:#ffffff; --bg:#f4f7fb; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
-    header { background:#0f2748; color:white; padding:52px 22px; }
-    header .wrap, main { max-width:1060px; margin:0 auto; }
-    h1 { margin:0 0 8px; font-size:2.2rem; }
-    h2 { color:#0f2748; margin-top:36px; }
-    h3 { color:#1d4ed8; }
-    p { margin:0 0 14px; }
-    ul { margin-top:6px; }
-    .subtitle { font-size:1.1rem; color:#dbeafe; margin:0; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
-    .card { background:var(--card); border:1px solid #dbe3ef; border-radius:14px; padding:22px; box-shadow:0 5px 18px rgba(15,39,72,.06); }
-    .metric { font-weight:700; color:#b91c1c; }
-    img { max-width:100%; height:auto; display:block; margin:14px 0; border:1px solid #dbe3ef; border-radius:10px; background:white; }
-    a { color:var(--blue); }
-    footer { max-width:1060px; margin:28px auto 48px; padding:0 22px; color:var(--muted); }
+    :root{--bg:#f5f7fb;--text:#172033;--muted:#5b6475;--card:#fff;--blue:#1d4ed8;--dark:#10263f;--line:#dbe3ef}
+    *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:linear-gradient(120deg,#10263f,#1d4ed8);color:#fff;padding:52px 22px}header .wrap,main,footer{max-width:1100px;margin:0 auto}
+    h1{margin:0 0 8px;font-size:2.25rem}h2{color:var(--dark);margin-top:0}h3{color:var(--blue);margin-bottom:8px}.subtitle{color:#dbeafe;margin:0;font-size:1.08rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:0 5px 18px rgba(16,38,63,.06);margin-top:18px}
+    img{max-width:100%;height:auto;display:block;margin:14px 0;border:1px solid var(--line);border-radius:10px;background:#fff}a{color:var(--blue)}.tag{display:inline-block;background:#e0ecff;color:#1d4ed8;padding:3px 10px;border-radius:999px;font-size:.85rem;margin-right:6px}.finding{font-weight:700;color:#b91c1c}
   </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <h1>WANG YU MENG (MC636011)</h1>
-    <p class="subtitle">Data Science Portfolio — CISC7204</p>
-  </div>
-</header>
+<header><div class="wrap"><h1>WANG YU MENG (MC636011)</h1><p class="subtitle">Data Science Portfolio — Individual Project and Group Assignments</p></div></header>
 <main>
-  <section class="card">
-    <h2>About me</h2>
-    <p>I am developing practical skills in Python data analysis, reproducible research, visualization, and technical communication. My project work focuses on turning a clear research question into documented code, readable charts, and evidence-based recommendations.</p>
-  </section>
+  <section class="card"><h2>About me</h2><p>I am developing practical skills in Python data analysis, reproducible research, visualization, and technical communication. This portfolio separates my individual project from two group assignments so the work context is clear.</p></section>
+  <section class="grid"><div class="card"><h2>Technical skills</h2><ul><li>Python, pandas, NumPy, and Jupyter workflows</li><li>Data cleaning, aggregation, and exploratory analysis</li><li>Matplotlib and Seaborn visualization</li><li>Git, GitHub, GitHub Pages, and documentation</li></ul></div><div class="card"><h2>Portfolio structure</h2><p><span class="tag">Individual</span> Wine Quality Analysis</p><p><span class="tag">Group 01</span> U.S. Domestic Flight Delay Pattern Analysis</p><p><span class="tag">Group 02</span> Income Inequality Across UK Local Authorities</p></div></section>
 
-  <section class="grid">
-    <div class="card">
-      <h2>Technical skills</h2>
-      <ul>
-        <li>Python, pandas, NumPy, and Jupyter Notebook</li>
-        <li>Data cleaning, aggregation, and exploratory analysis</li>
-        <li>Matplotlib and Seaborn visualization</li>
-        <li>Git, GitHub, GitHub Pages, and technical documentation</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h2>Featured project</h2>
-      <h3>U.S. Domestic Flight Delay Pattern Analysis</h3>
-      <p><strong>Research question:</strong> What drives U.S. domestic flight delays — carriers, airports, time of year, or causal factors?</p>
-      <p><strong>Status:</strong> Completed</p>
-      <p><a href="https://github.com/mc636011/data-science-project">View the project repository</a></p>
-    </div>
-  </section>
+  <section class="card"><p><span class="tag">Individual work</span></p><h2>Wine Quality Analysis</h2><h3>Which physicochemical properties most influence red wine quality?</h3><img src="projects/personal-wine-quality/images/fig1_correlation_heatmap.svg" alt="Wine quality correlation matrix"><p><strong>Findings:</strong> Alcohol is positively correlated with quality at approximately <span class="finding">0.48</span>, while volatile acidity is negatively correlated at approximately <span class="finding">-0.39</span>.</p><p><strong>Limitation:</strong> The sample covers Portuguese Vinho Verde red wine and uses subjective expert quality scores.</p><p><a href="https://github.com/mc636011/data-science-project/tree/main/projects/personal-wine-quality">View project folder</a> · <strong>Status:</strong> Completed</p></section>
 
-  <section class="card">
-    <h2>Approach</h2>
-    <p>I used BTS airline on-time data covering June 2003 to January 2025. After cleaning missing operational values and calculating delay-rate metrics, I compared carriers, airports, months, and causal factors. The analysis code and reproducible instructions are available in the project repository.</p>
-    <img src="images/carrier_delay_ranking.svg" alt="Airline delay rate ranking">
-  </section>
+  <section class="grid"><div class="card"><p><span class="tag">Group Assignment 01</span></p><h2>U.S. Domestic Flight Delay Pattern Analysis</h2><h3>What drives U.S. domestic flight delays?</h3><p><strong>Findings:</strong> Overall delay rate is about <span class="finding">19.2%</span>. Aloha Airlines is most punctual at <span class="finding">7.1%</span>, while June is the worst month at <span class="finding">23.1%</span> and September is best at <span class="finding">14.9%</span>.</p><p><strong>Limitation:</strong> Monthly aggregated records show patterns but cannot prove passenger-level causality.</p><p><a href="https://github.com/mc636011/data-science-project/tree/main/projects/assignment01-flight-delay">View project folder</a></p></div><div class="card"><h2>Flight delay visualizations</h2><img src="projects/assignment01-flight-delay/images/monthly_trend.svg" alt="Monthly flight delay trend"><img src="projects/assignment01-flight-delay/images/top_delay_airports.svg" alt="Top delay airports"></div></section>
 
-  <section class="grid">
-    <div class="card">
-      <h2>Key findings</h2>
-      <ul>
-        <li>Overall delay rate: <span class="metric">19.2%</span></li>
-        <li>Best-performing carrier: <span class="metric">Aloha Airlines, 7.1%</span></li>
-        <li>Highest overall carrier delay rate: <span class="metric">Peninsula Airways, 31.5%</span>; among carriers with more than 10,000 flights, Frontier Airlines is highest at <span class="metric">26.2%</span></li>
-        <li>Highest-delay airport: <span class="metric">Unalaska, 37.1%</span></li>
-        <li>Carrier-operational issues account for about <span class="metric">29.5%</span> of delays; direct weather delays account for about <span class="metric">3.6%</span></li>
-        <li>September is the most reliable month (<span class="metric">14.9%</span>) and June is the least reliable (<span class="metric">23.1%</span>)</li>
-      </ul>
-    </div>
-    <div class="card">
-      <h2>Monthly pattern</h2>
-      <img src="images/monthly_trend.svg" alt="Monthly flight delay rate trend">
-    </div>
-  </section>
-
-  <section class="grid">
-    <div class="card">
-      <h2>Airport risk</h2>
-      <img src="images/top_delay_airports.svg" alt="Top high-delay airports">
-    </div>
-    <div class="card">
-      <h2>Delay causes</h2>
-      <img src="images/weather_vs_carrier.svg" alt="Weather and carrier-operational delay shares">
-    </div>
-  </section>
-
-  <section class="card">
-    <h2>Limitation</h2>
-    <p>The analysis uses monthly aggregated records, so it shows associations and rankings rather than proving passenger-level causality. Historical delay patterns also may not generalize to future airline schedules or weather conditions.</p>
-  </section>
+  <section class="grid"><div class="card"><p><span class="tag">Group Assignment 02</span></p><h2>Income Inequality Across UK Local Authorities</h2><h3>Is local-authority GDHI converging or diverging?</h3><p><strong>Findings:</strong> Equal-weighted CV declines from <span class="finding">0.4497</span> to <span class="finding">0.3551</span>, but population-weighted Theil rises from <span class="finding">0.0278</span> to <span class="finding">0.0388</span>.</p><p><strong>Limitation:</strong> Aggregate GDHI does not measure individual household income.</p><p><a href="https://github.com/mc636011/data-science-project/tree/main/projects/assignment02-income-inequality">View project folder</a></p></div><div class="card"><h2>Income inequality visualizations</h2><img src="projects/assignment02-income-inequality/images/theil_decomposition.svg" alt="Theil decomposition"><img src="projects/assignment02-income-inequality/images/within_region_dispersion_2024.svg" alt="Within-region dispersion"></div></section>
 </main>
-<footer>
-  <p>Project repository: <a href="https://github.com/mc636011/data-science-project">github.com/mc636011/data-science-project</a></p>
-</footer>
+<footer><p>Full repository: <a href="https://github.com/mc636011/data-science-project">github.com/mc636011/data-science-project</a></p></footer>
 </body>
 </html>
